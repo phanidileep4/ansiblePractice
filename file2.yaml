@@ -1,0 +1,12 @@
+- hosts: web
+  tasks:
+    - name: create folder 
+      file: 
+        name:  /home/ubuntu/4343/te/223/2332/23/23/23/23/23
+        state: directory
+        recure: false
+    - name: create file
+      file:
+        name:  /home/ubuntu/playbooks/test/testfile
+        state: touch      
+

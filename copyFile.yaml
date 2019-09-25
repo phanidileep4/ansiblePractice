@@ -1,0 +1,11 @@
+- hosts: web
+  tasks:
+    - name: create folder 
+      file: 
+        name:  /home/ubuntu/playboos/test
+        state: directory
+    - name: create file
+      file:
+        name:  /home/ubuntu/playbooks/test/testfile
+        state: touch      
+
