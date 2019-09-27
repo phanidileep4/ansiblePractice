@@ -4,7 +4,7 @@
       file: 
         name:  /home/ubuntu/playboos/test
         state: directory
-    - name: create file
+    - name: create fi
       file:
         name:  /home/ubuntu/playbooks/test/testfile
         state: touch      
